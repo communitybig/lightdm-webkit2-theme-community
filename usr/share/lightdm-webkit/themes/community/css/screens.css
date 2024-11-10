@@ -29,16 +29,14 @@
 }
 
 .screen-background-darken::before {
-	width: 100vw;
-	height: 100vh;
-	background: #000000;
-	filter: grayscale(100%);
-	opacity: 0.75;
-	content: '';
-	top: 0;
-	left: 0;
-	z-index: 0;
-	position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);  /* Adjust 0.6 for lighter or darker - 0 = fully transparent and 1 = fully opaque */
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
 }
 
 .screen-content-parent {
