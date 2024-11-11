@@ -48,15 +48,7 @@
     --arrow-indicator-bg-fade: #F2F2F220;
 }
 
-/* 
- * Global cursor configuration
- * Sets Bibata-Modern-Classic as default cursor theme
- */
 * {
-    /* Default cursor style */
-    -webkit-cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/default") 2 2, default !important;
-    cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/default") 2 2, default !important;
-    
     /* Global box model and text rendering */
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -64,21 +56,6 @@
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-/* 
- * Cursor styles for interactive elements
- */
-a, button, [role="button"], .button, input[type="submit"] {
-    -webkit-cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/pointer") 2 2, pointer !important;
-    cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/pointer") 2 2, pointer !important;
-}
-
-input[type="text"], 
-input[type="password"], 
-textarea {
-    -webkit-cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/text") 2 2, text !important;
-    cursor: url("/usr/share/icons/Bibata-Modern-Classic/cursors/text") 2 2, text !important;
 }
 
 /*
